@@ -1,0 +1,32 @@
+.my-bg-section-box{
+    background-color: rgb(192, 192, 192);
+}
+
+.my-box{
+    border: 1px solid black;
+    color: black;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    margin:.5rem 1rem 1rem 0;
+    
+}
+
+
+.my-box-green{
+    background-color: green;
+    
+}
+
+.my-box-red{
+    background-color: red;
+    
+}
+
+.my-box-blue{
+    background-color: blue;
+}
+
+.my-box-black{
+    background-color: black;
+}
