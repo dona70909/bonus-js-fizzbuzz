@@ -1,7 +1,7 @@
 
-/* il click sul tasto my-btn-warning "start"  fa iniziare il ciclo e quindi la stampa dei numeri
+/* il click sul tasto my-btn-warning "start"  fa iniziare il ciclo e quindi la stampa dei numeri*/
 
-*/
+
 const buttonStart = document.getElementById("my-btn-warning");
 buttonStart.addEventListener("click", function(){
 
@@ -97,35 +97,4 @@ buttonStart.addEventListener("click", function(){
 });
 
 
-
-
-
-
-
-
-
-
-
-/* reset di ogni  condizione tramite il button reset */
-/* const buttonDangerReset = document.getElementById("my-btn-danger");
-buttonDangerReset.addEventListener("click", function(){
-    divElement.classList.remove("my-box-green", "text-center");
-});
-
-const buttonDangerReset = document.getElementById("my-btn-danger");
-buttonDangerReset.addEventListener("click", function(){
-    divElement.classList.remove("my-box-red", "text-center");
-});
-
-const buttonDangerReset = document.getElementById("my-btn-danger");
-buttonDangerReset.addEventListener("click", function(){
-    divElement.classList.remove("my-box-blue", "text-center");
-});
-
-const buttonDangerReset = document.getElementById("my-btn-danger");
-buttonDangerReset.addEventListener("click", function(){
-    divElement.classList.remove("my-box-black", "text-center", "text-white");
-});
-
-*/
 
