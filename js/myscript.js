@@ -16,15 +16,13 @@ buttonStart.addEventListener("click", function(){
             
             const buttonGreen = document.getElementById("my-btn-green");
             buttonGreen.addEventListener("click", function(){
-                
-                /* boxContainer.append(divElement); */
                 divElement.classList.add("my-box-green", "text-center");
                 divElement.innerHTML = ("fizz");
             });
 
             const resetButton = document.getElementById("my-btn-danger");
             resetButton.addEventListener("click", function(){
-        
+                divElement.innerHTML = ("");
                 divElement.classList.remove("my-box-green");
                 
             });
@@ -33,15 +31,13 @@ buttonStart.addEventListener("click", function(){
             
             const buttonRed = document.getElementById("my-btn-red");
             buttonRed.addEventListener("click", function(){
-                
-                /*  boxContainer.append(divElement); */
                 divElement.classList.add("my-box-red", "text-center");
                 divElement.innerHTML = ("buzz");
             });
 
             const resetButton = document.getElementById("my-btn-danger");
             resetButton.addEventListener("click", function(){
-        
+                divElement.innerHTML = ("");
                 divElement.classList.remove("my-box-red");
                 
             });
@@ -50,7 +46,6 @@ buttonStart.addEventListener("click", function(){
             const buttonBlue = document.getElementById("my-btn-blue");
             buttonBlue.addEventListener("click", function(){
                 
-                /*  boxContainer.append(divElement); */
                 divElement.classList.add("my-box-blue", "text-center");
                 divElement.innerHTML = ("fizzbuzz");
                 
@@ -58,7 +53,8 @@ buttonStart.addEventListener("click", function(){
 
             const resetButton = document.getElementById("my-btn-danger");
             resetButton.addEventListener("click", function(){
-        
+
+                divElement.innerHTML = ("");
                 divElement.classList.remove("my-box-blue");
                 
             });
@@ -75,7 +71,8 @@ buttonStart.addEventListener("click", function(){
 
             const resetButton = document.getElementById("my-btn-danger");
             resetButton.addEventListener("click", function(){
-        
+
+                divElement.innerHTML = ("");
                 divElement.classList.remove("my-box-black");
                 
             });
