@@ -5,7 +5,7 @@ buttonStart.addEventListener("click", function(){
     for (let i = 0; i < 101 ; i++) {
 
         let divElement = document.createElement("div");
-        divElement.classList.add("my-box", "col-3");
+        divElement.classList.add("my-box", "col-4", "col-lg-2", "my-sahdow");
     
         const boxContainer = document.getElementById("my-box-container");
         boxContainer.append(divElement);
