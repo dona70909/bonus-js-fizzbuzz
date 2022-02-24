@@ -1,18 +1,27 @@
+header{
+    background-color: white;
+}
 
-.my-bg-section-box{
+body{
     background-color: rgb(192, 192, 192);
 }
 
+/* ! buttons */
+
+.my-sahdow{
+    box-shadow: .1rem .1rem .5rem black;
+}
+
+
+/* !box */
 .my-box{
     border: 1px solid black;
     color: black;
     height: 150px;
-    width: 150px;
     line-height: 150px;
     margin:.5rem 1rem 1rem 0;
     
 }
-
 
 .my-box-green{
     background-color: green;
