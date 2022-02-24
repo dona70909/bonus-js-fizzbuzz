@@ -3,20 +3,37 @@ header{
 }
 
 body{
-    background-color: rgb(192, 192, 192);
+    background-image: url("../img/numbersdue.jpg");
+    
+    object-fit: cover;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* ! buttons */
 
 .my-sahdow{
-    box-shadow: .1rem .1rem .5rem black;
+    box-shadow: .2rem .2rem .5rem black;
+}
+
+#my-btn-blue:hover{
+    opacity: .7;
+}
+#my-btn-red:hover{
+    opacity: .7;
+}
+
+#my-btn-green:hover{
+    opacity: .7;
+}
+
+#my-btn-black:hover{
+    opacity: .7;
 }
 
 
 /* !box */
 .my-box{
-    border: 1px solid black;
+    border: .5rem solid black;
     height: 150px;
     line-height: 150px;
     margin:.5rem 1rem 1rem 0;
